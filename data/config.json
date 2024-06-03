@@ -1,0 +1,56 @@
+{
+    "comment": "Please view the ReadMe.txt file for more info. Make a copy of this file before editing for your safety!",
+    "joypadComments": {
+        "comment1": "On Linux, use jstest-gtk to see which buttons show the codes that correlate to the button, then enter that below.",
+        "comment2": "On Windows, use Control Panel->All Control Panel Items->Devices and Printers, right-click your joypad->game controller settings->properties to get the codes to enter below.",
+        "comment3": "Default codes below is for a PS3 pad on both OSes. The name after each code can be anything you want, as it is displayed on the menu."
+    },
+    "joypad": {
+        "windows": {
+            "shoot": [14, "circle"],
+            "dropPressie": [13, "triangle"],
+            "boost": [10, "l1"],
+            "pause": [3, "start"],
+            "menu": [0, "select"],
+            "quit": [16, "psbutton"]
+        },
+        "linux": {
+            "shoot": [0, "cross"],
+            "dropPressie": [1, "circle"],
+            "boost": [4, "l1"],
+            "pause": [9, "start"],
+            "menu": [8, "select"],
+            "quit": [10, "psbutton"]
+        },
+        "darwin": {
+            "shoot": [0, "cross"],
+            "dropPressie": [1, "circle"],
+            "boost": [4, "l1"],
+            "pause": [9, "start"],
+            "menu": [8, "select"],
+            "quit": [10, "psbutton"]
+        }      
+    },
+    "keyboardComments": {
+        "comment": "Use english names to map keys to codes. Set logging to 'true' and logLevel to 1 below to see what keys you pressed in the log file. OR, check out this link: https://www.pygame.org/docs/ref/key.html"
+    },
+    "keyboard": {
+        "shoot": "right",
+        "dropPressie": "left",
+        "boost": "space",
+        "pause": "p",
+        "menu": "escape",
+        "quit": "f10"
+    },
+    "screenSize": {
+        "comment": "Multiples of 320x180. (Set between 2 and 6). Fullscreen = true disregards this scaling.",
+        "scale": 4
+    },
+    "fullScreen": false,
+    "loggingComment": "Log level 1 = key presses only, 2 = file loading only, 3 = everything (creates at least 500kb file PER MINUTE, so use sparingly)",
+    "logging": true,
+    "logLevel": 2,
+    "volumeComment": "0.0 to 1.0 (quiet to loud)",
+    "volume": 1.0,
+    "music": true
+}
